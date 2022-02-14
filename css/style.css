@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+img{
+    vertical-align:middle;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+/* ==============================main css start=============== */
+
+/*================================menu part start================ */
+
+#menu{
+    background:rgba(0, 0, 0, 0.6);
+    line-height: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+}
+
+.menu{
+    width: 970px;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-transform: uppercase;
+    padding-left: 43px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f5f5f5;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover{
+    color:#28b8d8;
+}
+/*================================menu part end================ */
+
+/* ================================bannar part start============= */
+
+#bannar{
+    background: url(../b/bannar.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom:250px;
+    padding-top: 330px;
+    
+}
+
+
+
+.bannar-text{
+    text-align: center;
+}
+
+.bannar-text h1{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color:#ffff;
+}
+
+.bannar-text h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#ffff;
+}
+
+.bannar-text p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffff;
+}
+
+/* ================================bannar part end============= */
+
+/* ================================about part start============ */
+
+.about{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.about h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #444444;
+    padding-bottom: 12px;
+}
+
+.about p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+/* ================================about part end============ */
+
+/* =================================services part start============ */
+
+.service-head{
+    text-align: center;
+    padding-top:  78px;
+    padding-bottom: 30px;
+}
+
+.service-head h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.service-item{
+    width: 370px;
+    border: solid 1px #e3e3e3;
+    padding: 15px;
+    margin-right: 30px;
+    float: left;
+}
+
+.service-item img{
+    width: 100%;
+}
+
+.service-text{
+    text-align: center;
+    
+}
+
+.service-text h1{
+    padding-top: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444444;
+}
+
+.service-text p{
+    padding-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+.shot{
+    margin-right:0;
+}
+/* =================================services part end============ */
+
+/* ========================gallary part start==================== */
+
+#gallary{
+    background: #2c2c2c;
+    
+}
+
+.gallary-text{
+    padding-top: 50px;
+    padding-bottom: 44px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+
+.gallary-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #d5d5d5;
+    text-transform: uppercase;
+}
+.gallary-text::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    left: -110px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #d5d5d5;
+}
+
+.gallary-text::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    right: -110px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #d5d5d5;
+}
+
+.gallary-item img{
+    width: 25%;
+    float: left;
+   
+}
+
+.gallary-ins{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom:40px;
+    
+}
+
+.gallary-ins h2{
+    border: solid 1px #d5d5d5;
+    display: inline-block;
+    padding: 18px;
+    color: #d5d5d5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* ========================gallary part end==================== */
+
+/* ==========================jarnal part start====================== */
+
+#jarnal{
+    padding-bottom: 80px;
+}
+
+.jarnal-head{
+    text-align: center;
+    padding-top: 78px;
+}
+
+.jarnal-head h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.jarnal-head h4::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    left: 396px;
+    top: 8px;
+    background: #d9d9d9;
+}
+
+.jarnal-head h4::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    right: 396px;
+    top: 8px;
+    background: #d9d9d9;
+}
+
+.jarnal-item{
+    width: 370px;
+    float: left;
+    border: solid 1px #e3e3e3;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+
+.tahmid{
+    margin-right:0;
+}
+
+.jarnal-item img{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.jarnal-top{
+    text-align: center;
+}
+
+.jarnal-top h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 5px;
+}
+
+.jarnal-top  p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+    padding-bottom: 25px;
+
+}
+
+.jarnal-bottom h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font: size 14px;
+    color: #666666;
+    line-height: 22px;
+    padding: 25px;
+}
+
+.jarnal-bottom p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+    padding-left: 25px;
+    position: relative;
+}
+
+.jarnal-bottom p::after {
+    position: absolute;
+    content: '';
+    width: 117px;
+    height: 1px;
+    left: 24px;
+    top: 15px;
+    background: #28b8d8;
+}
+
+.jarnal-bottom span{
+    float: right;
+    padding-right: 25px;
+}
+
+/* ==========================jarnal part end====================== */
+
+/* ===========================littel css part start================= */
+
+#littel{
+    padding-bottom:80px ;
+}
+
+.littel-left{
+    width: 570px;
+    margin-right: 30px;
+    float: left;
+}
+
+.littel-left-head h5{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Roboto',serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.littel-left-head h5::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    right: -108px;
+    top: 10px;
+    background: #d9d9d9;
+}
+
+
+
+.littel-left-img{
+    width: 198px;
+    float: left;
+    margin-right: 28px;
+}
+
+.littel-left-img img{
+    width: 100%;
+}
+
+.littel-left-text h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #666666;
+    line-height: 28px;
+    padding-bottom:25px;
+}
+
+.littel-left-text p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.littel-right-main{
+    padding-bottom: 30px;
+}
+
+.littel-right-main-img{
+    padding: 15px 25px;
+    float: left;
+}
+
+.littel-righ-text h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444444;
+}
+
+.littel-righ-text p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+/* ===========================littel css part end================= */
+
+/* ============================contact css start================== */
+
+#contact{
+    background: #373737;
+    padding-top: 68px;
+    padding-bottom:65px ;
+}
+
+.contact-main{
+    width: 25%;
+    float: left;
+}
+
+.contact-main h2{
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.contact-main  p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+.contact-main ul li{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+    padding-bottom: 5px;
+}
+/* ============================contact css end================== */
+
+/* ============================finishing part start================== */
+
+#finish{
+    background: #333333;
+    padding-top: 40px;
+    padding-bottom: 38px;
+}
+
+.finish-text p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+}
+/* ============================finishing part end================== */
